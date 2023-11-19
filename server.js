@@ -13,7 +13,7 @@ const port = 5000;
 app.use(cors());
 
 database.connect();
-
+// test
 app.use("/api", clientRoutes);
 
 app.listen(port);
